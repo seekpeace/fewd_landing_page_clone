@@ -43,6 +43,8 @@ ol, ul {
 .top-navigation {
 	background-color:yellow;
     position: fixed;
+        width: 100%;
+    border-bottom: 1px solid #DDD;
 }
 .top-navigation > .content {
 	height: 70px;
@@ -161,4 +163,30 @@ cursor: pointer;
     border: 1px solid #eaebec;
     padding: 0.625rem 0;
     text-align: center;
+}
+.buy-now {
+background-image: url('../img/buy-now-bg.jpg');
+background-position: center bottom;
+background-repeat: no-repeat;
+background-size: cover;
+height: 45.938rem;
+padding-top: 5.250rem;
+overflow: auto;
+}
+.adjustable {
+width: 15rem;
+text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+}
+.buy-now h2 {
+font-weight: 400;
+font-size: 1.563rem;
+color: #f15a29;
+margin: 2.5rem 0px 1.875rem;
+}
+.buy-now p {
+font-weight: 300;
+font-size: 1.15rem;
+line-height: 1.5;
+color: #4c5058;
+margin-bottom: 1.250rem;
 }
